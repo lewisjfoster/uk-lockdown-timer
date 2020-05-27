@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.1.0...v1.2.0) (2020-05-27)
+
+
+### Features
+
+* add google analytics ([a865d7f](https://github.com/lewisjfoster/uk-lockdown-timer/commit/a865d7f3cb13bb864abd79e93a89c0c777fe3b40))
+
+
+
 # [1.1.0](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.0.3...v1.1.0) (2020-05-27)
 
 
