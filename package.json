@@ -1,11 +1,14 @@
 {
-  "name": "react-template",
+  "homepage": "https://lewisjfoster.github.io/bouncing-balls/",
+  "name": "uk-lockdown-timer",
   "version": "1.0.3",
   "private": true,
   "author": "Lewis Foster <lewisjfoster>",
   "license": "UNLICENSED",
   "main": "index.js",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
     "test": "jest"
@@ -49,6 +52,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
