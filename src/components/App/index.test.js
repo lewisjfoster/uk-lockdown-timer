@@ -1,8 +1,11 @@
 import React from 'react';
 import { mount } from 'enzyme';
+import moment from 'moment';
+import 'moment-duration-format';
 
 import App from './App';
 import lang from '../../libs/lang';
+import { lockdownStartDate } from '../../libs/constants';
 
 describe('App', () => {
     it('should render the component', () => {
@@ -14,6 +17,18 @@ describe('App', () => {
     it('should render the correct title', () => {
         const wrapper = mount(<App />);
 
-        expect(wrapper.find('div').text()).toBe(lang.title);
+        expect(wrapper.find('h2').text()).toBe(lang.title);
+    });
+
+    it('should render the correct timer', () => {
+        const wrapper = mount(<App />);
+
+        const now = moment();
+        const lockdown = moment(lockdownStartDate);
+        const diff = moment.duration(now - lockdown);
+
+        expect(wrapper.find('h1').text()).toBe(
+            diff.format(`dd [${lang.days}] hh [${lang.hours}] mm [${lang.minutes}] ss [${lang.seconds}]`),
+        );
     });
 });

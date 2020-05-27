@@ -1,6 +1,8 @@
-# React Template
+# UK Lockdown Timer
 
-A template for React projects. This template contains features to make development easier and more consistant.
+[Live Demo](https://lewisjfoster.github.io/uk-lockdown-timer/)
+
+A React application to display the time since lockdown in the UK started.
 
 ## Getting Started
 
@@ -8,7 +10,16 @@ A template for React projects. This template contains features to make developme
 
 ### Installation
 
-1. Consume the template when creating a `GitHub` repo
+1. Clone the repo
+
+```
+git clone https://github.com/lewisjfoster/uk-lockdown-timer.git
+
+cd uk-lockdown-timer
+
+npm install
+```
+
 2. Install packages
 
 ```
