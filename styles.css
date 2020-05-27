@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #16a085;
+    color: #ecf0f1;
+}
+
+h1 {
+    margin: 0;
+    margin: 0 0 3rem 0;
+}
+
+h2 {
+    margin: 0 0 1rem 0;
+}
+
+.App__timer___3J4mT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
