@@ -5,11 +5,16 @@ import 'moment-duration-format';
 import styles from './App.css';
 import lang from '../../libs/lang';
 import { lockdownStartDate } from '../../libs/constants';
+import { trackPageView } from '../../libs/tracking';
 
 const App = () => {
     const [now, setNow] = useState(moment());
     const lockdown = moment(lockdownStartDate);
     const diff = moment.duration(now - lockdown);
+
+    useEffect(() => {
+        trackPageView();
+    }, []);
 
     useEffect(() => {
         const interval = setInterval(() => {
