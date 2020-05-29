@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.2.0...v1.3.0) (2020-05-29)
+
+
+### Features
+
+* added google adsense script ([f263236](https://github.com/lewisjfoster/uk-lockdown-timer/commit/f2632365c77190cab98ab451084441dada40f4a1))
+
+
+
 # [1.2.0](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.1.0...v1.2.0) (2020-05-27)
 
 
