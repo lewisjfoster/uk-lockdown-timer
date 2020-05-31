@@ -1,25 +1,175 @@
 body {
-    margin: 0;
-    overflow: hidden;
+    background-color: #ecf0f1;
     font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+}
+
+.Header__header___1qRCL {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #16a085;
     color: #ecf0f1;
-}
-
-h1 {
-    margin: 0;
-    margin: 0 0 3rem 0;
-}
-
-h2 {
-    margin: 0 0 1rem 0;
-}
-
-.App__timer___3J4mT {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-shadow: 0 0.5rem 1rem 0 #bdc3c7;
+            box-shadow: 0 0.5rem 1rem 0 #bdc3c7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    z-index: 200;
     text-align: center;
-    height: 100vh;
+    padding: 1.5rem 3rem
 }
+
+@media (min-width: 768px) {
+
+.Header__header___1qRCL {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 0;
+        padding: 2rem 3rem
+}
+    }
+
+.Header__headerTitle___3NpU_ {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem
+}
+
+@media (min-width: 768px) {
+
+.Header__headerTitle___3NpU_ {
+        margin-bottom: 0
+}
+    }
+
+.Header__headerTimer___2Y-rd {
+    font-size: 1rem
+}
+
+@media (min-width: 768px) {
+
+.Header__headerTimer___2Y-rd {
+        text-align: right
+}
+    }
+
+.Header__headerTimer___2Y-rd > * {
+        margin-bottom: 0.25rem
+    }
+
+.Header__headerTimer___2Y-rd > *:last-child {
+            margin-bottom: 0;
+        }
+
+.Timeline__timeline___1wKpg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    margin: 12rem 0 3rem 0
+}
+
+@media (min-width: 768px) {
+
+.Timeline__timeline___1wKpg {
+        margin: 12rem 0 5rem 0
+}
+    }
+
+.Timeline__timeline___1wKpg::after {
+    background-color: #1abc9c;
+    content: '';
+    position: absolute;
+    left: calc(50% - 0.125rem);
+    width: 0.25rem;
+    height: 100%;
+}
+
+.Timeline__timelineItem___1nuEh {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    width: 50%;
+    margin-bottom: 3rem
+}
+
+.Timeline__timelineItem___1nuEh .Timeline__circle___3j3-H {
+        background-color: #fff;
+        border: 0.25rem solid #1abc9c;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 0.75rem);
+        right: calc(0.75rem * -1);
+        width: 1rem;
+        height: 1rem;
+        z-index: 100;
+    }
+
+.Timeline__timelineItem___1nuEh .Timeline__date___2aQt8 {
+        color: #7f8c8d;
+        margin-bottom: 0.5rem;
+    }
+
+.Timeline__timelineItem___1nuEh:nth-child(odd) {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start
+}
+
+.Timeline__timelineItem___1nuEh:nth-child(odd) > .Timeline__timelineItemContent___2ltua {
+        text-align: left;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+
+.Timeline__timelineItem___1nuEh:nth-child(odd) > .Timeline__circle___3j3-H {
+        right: auto;
+        left: calc(0.75rem * -1);
+    }
+
+.Timeline__timelineItemContent___2ltua {
+    -webkit-box-shadow: 0 0 0.5rem #bdc3c7;
+            box-shadow: 0 0 0.5rem #bdc3c7;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 1rem;
+    text-align: right;
+    width: 80%;
+    margin: 0 2rem
+}
+
+@media (min-width: 768px) {
+
+.Timeline__timelineItemContent___2ltua {
+        width: 50%;
+        margin: 0 3rem
+}
+    }
 
