@@ -1,36 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import moment from 'moment';
-import 'moment-duration-format';
+import React from 'react';
 
-import styles from './App.css';
-import lang from '../../libs/lang';
-import { lockdownStartDate } from '../../libs/constants';
-import { trackPageView } from '../../libs/tracking';
+import './App.css';
+import Header from '../Header';
+import Timeline from '../Timeline';
+import { usePageView } from '../../libs/tracking';
 
 const App = () => {
-    const [now, setNow] = useState(moment());
-    const lockdown = moment(lockdownStartDate);
-    const diff = moment.duration(now - lockdown);
-
-    useEffect(() => {
-        trackPageView();
-    }, []);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setNow(moment());
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, [now]);
+    usePageView();
 
     return (
-        <div className={styles.timer}>
-            <div>
-                <h2>{lang.title}</h2>
-                <h1>{diff.format(`dd [${lang.days}] hh [${lang.hours}] mm [${lang.minutes}] ss [${lang.seconds}]`)}</h1>
-            </div>
-        </div>
+        <>
+            <Header />
+            <Timeline />
+        </>
     );
 };
 

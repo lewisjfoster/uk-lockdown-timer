@@ -1,12 +1,10 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import ReactGA from 'react-ga';
-import moment from 'moment';
-import 'moment-duration-format';
 
-import App from './App';
-import lang from '../../libs/lang';
-import { lockdownStartDate } from '../../libs/constants';
+import App from '.';
+import Header from '../Header';
+import Timeline from '../Timeline';
 
 jest.mock('react-ga');
 
@@ -17,22 +15,16 @@ describe('App', () => {
         expect(wrapper.find(App)).toBeTruthy();
     });
 
-    it('should render the correct title', () => {
+    it('should render a header', () => {
         const wrapper = mount(<App />);
 
-        expect(wrapper.find('h2').text()).toBe(lang.title);
+        expect(wrapper.find(Header)).toBeTruthy();
     });
 
-    it('should render the correct timer', () => {
+    it('should render a timeline', () => {
         const wrapper = mount(<App />);
 
-        const now = moment();
-        const lockdown = moment(lockdownStartDate);
-        const diff = moment.duration(now - lockdown);
-
-        expect(wrapper.find('h1').text()).toBe(
-            diff.format(`dd [${lang.days}] hh [${lang.hours}] mm [${lang.minutes}] ss [${lang.seconds}]`),
-        );
+        expect(wrapper.find(Timeline)).toBeTruthy();
     });
 
     it('should dispatch the correct pageview event', () => {
