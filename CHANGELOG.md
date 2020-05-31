@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.3.1...v1.4.0) (2020-05-31)
+
+
+### Features
+
+* added header and timeline ([6164cdc](https://github.com/lewisjfoster/uk-lockdown-timer/commit/6164cdc7a93f7f1c26501cf6efb9813dc8a67e8d))
+
+
+
 ## [1.3.1](https://github.com/lewisjfoster/uk-lockdown-timer/compare/v1.3.0...v1.3.1) (2020-05-29)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * added title and timer ([92ab4f3](https://github.com/lewisjfoster/uk-lockdown-timer/commit/92ab4f34bcea3209c21b1dc918954102f43d6d79))
-
-
-
-## 1.0.3 (2020-05-27)
 
 
 
