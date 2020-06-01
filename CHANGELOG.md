@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.4.1...v1.4.2) (2020-06-01)
+
+
+### Bug Fixes
+
+* corrected README ([4b86d36](https://github.com/lewisjfoster/uk-lockdown-2020/commit/4b86d361e73ef642892390f03920a882fa2e5363))
+
+
+
 ## [1.4.1](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.4.0...v1.4.1) (2020-06-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added google adsense script ([f263236](https://github.com/lewisjfoster/uk-lockdown-2020/commit/f2632365c77190cab98ab451084441dada40f4a1))
-
-
-
-# [1.2.0](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.1.0...v1.2.0) (2020-05-27)
-
-
-### Features
-
-* add google analytics ([a865d7f](https://github.com/lewisjfoster/uk-lockdown-2020/commit/a865d7f3cb13bb864abd79e93a89c0c777fe3b40))
 
 
 
