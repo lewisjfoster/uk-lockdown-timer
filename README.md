@@ -1,8 +1,8 @@
-# UK Lockdown Timer
+# UK Lockdown 2020
 
-[Live Demo](https://lewisjfoster.github.io/uk-lockdown-timer/)
+[Live Demo](https://lewisjfoster.github.io/uk-lockdown-2020/)
 
-A React application to display the time since lockdown in the UK started.
+A React application that displays information related to the UK lockdown in 2020
 
 ## Getting Started
 
@@ -13,11 +13,11 @@ A React application to display the time since lockdown in the UK started.
 1. Clone the repo
 
 ```
-git clone https://github.com/lewisjfoster/uk-lockdown-timer.git
+git clone https://github.com/lewisjfoster/uk-lockdown-2020.git
 
-cd uk-lockdown-timer
+cd uk-lockdown-2020
 
-npm install
+yarn install
 ```
 
 2. Install packages
@@ -39,8 +39,6 @@ yarn build
 ```
 
 ## Testing
-
-This project uses `jest` and `enzyme` for testing. Run the tests via the command
 
 ```
 yarn test
