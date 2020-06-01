@@ -10,7 +10,7 @@ A React application that displays information related to the UK lockdown in 2020
 
 ### Installation
 
-1. Clone the repo
+1. Setup the repo
 
 ```
 git clone https://github.com/lewisjfoster/uk-lockdown-2020.git
@@ -20,19 +20,13 @@ cd uk-lockdown-2020
 yarn install
 ```
 
-2. Install packages
-
-```
-yarn install
-```
-
-3. To start a development server
+2. To start a development server
 
 ```
 yarn start
 ```
 
-4. To build for production
+3. To build for production
 
 ```
 yarn build
