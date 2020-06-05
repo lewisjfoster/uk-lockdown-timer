@@ -11,7 +11,7 @@ describe('Header', () => {
     it('should render the component', () => {
         const wrapper = mount(<Header />);
 
-        expect(wrapper.find(Header)).toBeTruthy();
+        expect(wrapper.find(Header).exists()).toBeTruthy();
     });
 
     it('should render the correct title', () => {

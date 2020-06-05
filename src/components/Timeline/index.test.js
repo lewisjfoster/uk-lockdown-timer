@@ -8,7 +8,7 @@ describe('Timeline', () => {
     it('should render the component', () => {
         const wrapper = mount(<Timeline />);
 
-        expect(wrapper.find(Timeline)).toBeTruthy();
+        expect(wrapper.find(Timeline).exists()).toBeTruthy();
     });
 
     it('should render the TimelineItems', () => {
@@ -21,7 +21,7 @@ describe('Timeline', () => {
         timelineItems.forEach((item, index) => {
             expect(item.find('[data-qa="timeline-item-date"]').text()).toBe(timeline[index].date);
             expect(item.find('[data-qa="timeline-item-content"]').text()).toBe(timeline[index].content);
-            expect(item.find('[data-qa="timeline-item-circle"]')).toBeTruthy();
+            expect(item.find('[data-qa="timeline-item-circle"]').exists()).toBeTruthy();
         });
     });
 });
