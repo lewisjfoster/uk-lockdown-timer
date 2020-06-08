@@ -1,3 +1,7 @@
+## [1.4.4](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.4.3...v1.4.4) (2020-06-08)
+
+
+
 ## [1.4.3](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.4.2...v1.4.3) (2020-06-05)
 
 
@@ -31,15 +35,6 @@
 ### Features
 
 * added header and timeline ([6164cdc](https://github.com/lewisjfoster/uk-lockdown-2020/commit/6164cdc7a93f7f1c26501cf6efb9813dc8a67e8d))
-
-
-
-## [1.3.1](https://github.com/lewisjfoster/uk-lockdown-2020/compare/v1.3.0...v1.3.1) (2020-05-29)
-
-
-### Bug Fixes
-
-* updated homepage attribute ([68c9434](https://github.com/lewisjfoster/uk-lockdown-2020/commit/68c9434657683ab4e1ba9f9b9bf5a6442984954e))
 
 
 
